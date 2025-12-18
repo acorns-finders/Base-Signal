@@ -1,7 +1,5 @@
 # Base Signal (Built for Base)
 
-Deployed on Base Mainnet.
-
 Base Signal is a browser-first reference project that facilitates Base chain validation, wallet connectivity, and real-time, read-only blockchain signal monitoring using Coinbase Wallet SDK and Base tooling.
 
 ---
@@ -47,9 +45,8 @@ All interactions are read-only. No transactions are broadcast.
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - your_contract.sol — minimal contract used to validate deployment and verification flow  
-  - your_contract.sol — simple stateful contract for interaction testing  
-  - your_contract.sol — lightweight contract used for read-only query validation  
+  - mapping.sol — defines custom data types (structs) to group related data together
+  - structs.sol — demonstrates how to set and get values from a mapping, providing efficient data access
 
 - package.json  
   Dependency manifest including Coinbase SDKs and 2–5 repositories from the Base GitHub organization.
@@ -116,9 +113,11 @@ SOFTWARE.
 
 ## Author
 
-GitHub: https://github.com/your-handle  
-Email: you@example.com  
-Public contact: https://x.com/your-handle  
+GitHub: https://github.com/acorns-finders
+
+Email: acorns-finders.0e@icloud.com  
+
+Public contact: https://x.com/DepuyLera71765
 
 ---
 
@@ -131,24 +130,18 @@ chainId (decimal): 84532
 Explorer: https://sepolia.basescan.org  
 
 Contract #1 address:  
-your_address
+0x76f226eB8f11d32246612AB54fFB714B90B6d656
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/your_address
-- https://sepolia.basescan.org/your_address/0#code  
+- https://sepolia.basescan.org/address/0x76f226eB8f11d32246612AB54fFB714B90B6d656
+- https://sepolia.basescan.org/0x76f226eB8f11d32246612AB54fFB714B90B6d656/0#code  
 
 Contract #2 address:  
-your_address
+0x54545887Eaa1C02634399A31f226B5a42C5c54d6
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/your_address
-- https://sepolia.basescan.org/your_address/0#code  
+- https://sepolia.basescan.org/address/0x54545887Eaa1C02634399A31f226B5a42C5c54d6
+- https://sepolia.basescan.org/0x54545887Eaa1C02634399A31f226B5a42C5c54d6/0#code  
 
-Contract #3 address:  
-your_address
-
-Deployment and verification:
-- https://sepolia.basescan.org/address/your_address
-- https://sepolia.basescan.org/your_address/0#code  
 
 These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
