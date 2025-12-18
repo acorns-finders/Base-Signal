@@ -129,14 +129,14 @@ Network: Base Sepolia
 chainId (decimal): 84532  
 Explorer: https://sepolia.basescan.org  
 
-Contract #1 address:  
+Contract mapping.sol address:  
 0x76f226eB8f11d32246612AB54fFB714B90B6d656
 
 Deployment and verification:
 - https://sepolia.basescan.org/address/0x76f226eB8f11d32246612AB54fFB714B90B6d656
 - https://sepolia.basescan.org/0x76f226eB8f11d32246612AB54fFB714B90B6d656/0#code  
 
-Contract #2 address:  
+Contract structs.sol address:  
 0x54545887Eaa1C02634399A31f226B5a42C5c54d6
 
 Deployment and verification:
